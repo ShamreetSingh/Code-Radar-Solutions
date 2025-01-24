@@ -4,6 +4,6 @@ int main()
     float num;
     printf("enter num ");
     scanf("%f",&num);
-    printf("entered num is %f");
+    printf("%f");
     return 0;
 }
