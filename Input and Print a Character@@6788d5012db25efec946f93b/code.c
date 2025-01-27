@@ -4,4 +4,4 @@ int main(){
     scanf("%c",&c);
     printf("You entered: ");
     return 0;
-}Loading Code...
+}
