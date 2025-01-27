@@ -5,3 +5,4 @@ int main(){
     prinf("Product: %.2f",x*y);
     return 0;
 }
+
