@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char x;
-    scanf("%c",&x);
+    char c;
+    scanf("%c",&c);
     printf("You entered: ");
     return 0;
 }Loading Code...
