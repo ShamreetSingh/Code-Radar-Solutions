@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
     char x[100];
-    char y[100];
-    int z;
-    scanf("%s %s %d",&x,&y,&z);
+    char z[100];
+    int y;
+    scanf("%s %s %d",&x,&z,&y);
     printf("Name: /nAge: /nHobby: ",x,y,z);
     return 0;
 }
