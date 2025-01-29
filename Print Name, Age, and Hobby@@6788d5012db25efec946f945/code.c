@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main(){
-    char x[100];
-    char z[100];
-    int y;
-    scanf("%s %s %d",&x,&z,&y);
-    printf("Name: %sAge: %dHobby: %s",x/n,y/n,z);
+    char a[100],c[100];
+    int b;
+    scanf("%s %d %s",&a,&b,&c);
+    printf("Name: %s\nAge: %d\nHobby: ",a,b,c);
     return 0;
 }
