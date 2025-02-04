@@ -5,11 +5,11 @@ int main(){
     if(x==R){
         printf("Stop");
     }
-    else if(y==G);
+    else if(y==G)
     {
         printf("Go");
     }
-    else if(z==Y);
+    else if(z==Y)
     {printf("Slow Down");}
     else{
         printf("Invalid input");
