@@ -8,7 +8,7 @@ int main() {
     }
     else
     {
-        printf(Above Freezing);
+        printf("Above Freezing");
     }
     return 0;
 }
