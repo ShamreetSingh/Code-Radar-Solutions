@@ -12,7 +12,7 @@ else if(x>=70 && x<70){
     printf("D");
 }
 else if(x<60){
-    printf("Fail");
+    printf("F");
 }
 
 
