@@ -9,7 +9,7 @@ else if(x>=80 && x<90){
     printf("B");
 }
 else if(x>=70 && x<70){
-    printf("D")
+    printf("D");
 }
 else if(x<60){
     printf("Fail");
