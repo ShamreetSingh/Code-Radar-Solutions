@@ -13,6 +13,7 @@ int main() {
        else if(d='D'){
         printf("Below Average");
        }
-       else{(printf("Fail"));}
+       else
+       {printf("Fail");}
     return 0;
 }
