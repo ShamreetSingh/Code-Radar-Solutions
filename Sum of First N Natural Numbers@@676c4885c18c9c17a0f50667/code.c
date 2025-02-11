@@ -6,7 +6,7 @@ int main() {
     printf("%d", N);
     for(int i = 1; i <= N; i++) {
         sum += i;
-        printf("Adding %d, Current Sum = %d\n", i, sum);
+        printf("%d,%d", i, sum);
     }
     printf("%d", N, sum);
     return 0;
