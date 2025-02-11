@@ -2,7 +2,7 @@
 int main() {
     int num1, num2;
     char operator;
-    printf("Enter two numbers and an operator (+, -, *, /): ");
+    
     if (scanf("%d %d %c", &num1, &num2, &operator) != 3) {
         printf("Error: Invalid input\n");
         return 1;
