@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
-    printf("%d\n", a ^ b);
+    int num, shift;
+    scanf("%d %d", &num, &shift);
+    printf("%d\n", num << shift);
     return 0;
 }
