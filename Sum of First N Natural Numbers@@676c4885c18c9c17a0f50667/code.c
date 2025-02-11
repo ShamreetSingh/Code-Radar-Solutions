@@ -6,8 +6,8 @@ int main() {
     printf("%d", N);
     for(int i = 1; i <= N; i++) {
         sum += i;
-        printf("%d", i, sum);
+        printf("%d", i);
     }
-    printf("%d", N, sum);
+    printf("%d", N);
     return 0;
 }
