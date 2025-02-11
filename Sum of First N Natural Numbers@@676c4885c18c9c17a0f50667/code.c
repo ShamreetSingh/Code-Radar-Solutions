@@ -4,9 +4,7 @@ int main() {
     scanf("%d", &N);
     for(int i = 1; i <= N; i++) {
         sum += i;}
-
-        printf("%d", i, sum);
     
-    printf("%d", N, sum);
+    printf("%d", sum);
     return 0;
 }
