@@ -7,8 +7,8 @@ int main() {
         printf("error\n");
         return 1;
     }
-    switch (operator) {
-        case '+':
+    switch(Operator)
+        case   '+':
             printf("%d\n", num1 + num2);
             break;
         case '-':
