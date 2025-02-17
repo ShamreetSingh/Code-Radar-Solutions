@@ -7,5 +7,6 @@ int main() {
     }
     else if(x>='a' ||  x<='z'){
         printf("Lowercase");}
+        else{printf("Not an alphabet");}
     return 0;
 }
