@@ -1,23 +1,30 @@
 #include <stdio.h>
 
-void fibonacci(int n) {
+void fibonacciSeries(int n) {
     int a = 0, b = 1, next;
     
     for (int i = 0; i < n; i++) {
         printf("%d", a);
         if (i < n - 1) {
-            printf(" ");  // Add space between numbers
+            printf(" ");
         }
         next = a + b;
         a = b;
         b = next;
     }
-    printf("\n"); // Print newline at the end
+    printf("\n");
 }
 
 int main() {
-    int N;
-    scanf("%d", &N);  // Read the number of terms
-    fibonacci(N);
+    int n;
+    scanf("%d", &n);
+
+    if (n <= 0) {
+        printf("Invalid input\n");
+        return 0;
+    }
+
+    fibonacciSeries(n);
     return 0;
 }
+
