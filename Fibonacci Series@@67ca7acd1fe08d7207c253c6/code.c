@@ -21,10 +21,10 @@ int main() {
 
     if (n <= 0) {
         printf("Invalid input\n");
-        return 0;
+    } else {
+        fibonacciSeries(n);
     }
 
-    fibonacciSeries(n);
     return 0;
 }
 
