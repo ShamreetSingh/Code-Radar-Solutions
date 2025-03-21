@@ -19,7 +19,7 @@ int countWords(char *str) {
 }
 int main() {
     char str[1000];
-    printf("Enter a string: ");
+    printf("");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';
     printf("%d\n", countWords(str));
