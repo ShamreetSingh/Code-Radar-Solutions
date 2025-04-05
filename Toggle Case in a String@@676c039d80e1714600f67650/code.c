@@ -10,7 +10,6 @@ void toggleCase(char str[]) {
 }
 int main() {
     char str[100]; 
-    printf("Input: ");
     fgets(str, sizeof(str), stdin);
     toggleCase(str);
     printf("%s", str);
