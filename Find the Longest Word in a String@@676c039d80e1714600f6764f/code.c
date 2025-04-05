@@ -10,7 +10,7 @@ int main() {
     char *token = strtok(str, " ");
     strcpy(longestWord, ""); 
     while (token != NULL) {
-        if (strlen(token) > strlen(longestWord)) {
+        if (strlen(token) > strlen(longestWord);) {
             strcpy(longestWord, token);
         }
         token = strtok(NULL, " ");
