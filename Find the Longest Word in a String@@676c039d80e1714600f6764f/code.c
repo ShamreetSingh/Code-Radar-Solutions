@@ -19,6 +19,6 @@ int main() {
     if (len > 0 && longestWord[len - 1] == '\n') {
         longestWord[len - 1] = '\0';
     }
-    printf("Output: %s\n", longestWord);
+    printf("%s\n", longestWord);
     return 0;
 }
