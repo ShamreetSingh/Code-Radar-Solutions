@@ -10,7 +10,7 @@ int main() {
     char *token = strtok(str, " ");
     strcpy(longestWord, ""); 
     while (token != NULL) {
-        if (strlen(token) > strlen(longestWord);) {
+        if (strlen(token) > strlen(longestWord)) {
             strcpy(longestWord, token);
         }
         token = strtok(NULL, " ");
@@ -19,6 +19,6 @@ int main() {
     if (len > 0 && longestWord[len - 1] == '\n') {
         longestWord[len - 1] = '\0';
     }
-    printf("Output: %s\n", longestWord)
+    printf("Output: %s\n", longestWord);
     return 0;
 }
