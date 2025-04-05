@@ -12,7 +12,7 @@ char firstNonRepeatedChar(char *str) {
         }
     }
 
-    return '.';  
+    return '-';  
 }
 
 int main() {
@@ -21,6 +21,5 @@ int main() {
     str[strcspn(str, "\n")] = '\0';  
     char result = firstNonRepeatedChar(str);
     printf("%c\n", result);
-
     return 0;
 }
