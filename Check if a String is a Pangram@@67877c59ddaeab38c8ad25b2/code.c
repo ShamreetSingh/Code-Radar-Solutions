@@ -21,18 +21,14 @@ int is_pangram(const char *str) {
 
     return 1; 
 }
-
 int main() {
     char input[1000]; 
-
     fgets(input, sizeof(input), stdin);
     input[strcspn(input, "\n")] = '\0';
-
     if (is_pangram(input)) {
-        printf("Output: Yes\n");
+        printf("Yes\n");
     } else {
-        printf("Output: No\n");
+        printf("No\n");
     }
-
     return 0;
 }
