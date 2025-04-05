@@ -21,7 +21,7 @@ int main() {
         
         token = strtok(NULL, " ");
     }
-    printf("\n%s\n", shortest);
+    printf("%s\n", shortest);
     
     return 0;
 }
