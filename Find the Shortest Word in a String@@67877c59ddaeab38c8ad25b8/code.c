@@ -7,7 +7,7 @@ int main() {
     char str[MAX_LENGTH];
     char shortest[MAX_LENGTH];
     int minLength = MAX_LENGTH;
-    printf("Enter a string: ");
+
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';
     char *token = strtok(str, " ");    
