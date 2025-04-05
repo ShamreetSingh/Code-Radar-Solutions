@@ -16,7 +16,6 @@ char firstUniqueChar(char *str) {
 }
 int main() {
     char input[100];
-    printf("Enter a string: ");
     scanf("%99s", input); 
     char result = firstUniqueChar(input);
     printf("%c\n", result); 
