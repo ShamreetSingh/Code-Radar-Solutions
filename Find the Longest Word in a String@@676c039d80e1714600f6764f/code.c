@@ -6,7 +6,6 @@
 int main() {
     char str[MAX_LEN];
     char longestWord[MAX_LEN];
-    printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
     char *token = strtok(str, " ");
     strcpy(longestWord, ""); 
