@@ -21,7 +21,7 @@ int main() {
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';  
     char result = firstNonRepeatedChar(str);
-    printf("Output: %c\n", result);
+    printf("%c\n", result);
 
     return 0;
 }
