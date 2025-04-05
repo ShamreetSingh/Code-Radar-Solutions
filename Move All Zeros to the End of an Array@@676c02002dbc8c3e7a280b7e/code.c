@@ -1,10 +1,33 @@
-def move_zeros_to_end(arr):
-    non_zero = [num for num in arr if num != 0]
-    zeros = [0] * (len(arr) - len(non_zero))
-    return non_zero + zeros
+#include <stdio.h>
 
-n = int(input())  
-arr = list(map(int, input().split()))  
+void moveZerosToEnd(int arr[], int n) {
+    int j = 0; 
 
-result = move_zeros_to_end(arr)
-print(*result)
+    for (int i = 0; i < n; i++) {
+        if (arr[i] != 0) {
+            arr[j++] = arr[i];
+        }
+    }
+
+    while (j < n) {
+        arr[j++] = 0;
+    }
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    moveZerosToEnd(arr, n);
+
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
