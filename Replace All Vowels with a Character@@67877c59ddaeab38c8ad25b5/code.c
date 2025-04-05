@@ -13,13 +13,10 @@ void replaceVowels(char str[], char replaceChar) {
 int main() {
     char str[100];  
     char replaceChar; 
-    printf("Input\n");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = 0; 
     scanf("%c", &replaceChar);
     replaceVowels(str, replaceChar);
-    printf("Output\n");
     printf("%s\n", str);
-
     return 0;
 }
