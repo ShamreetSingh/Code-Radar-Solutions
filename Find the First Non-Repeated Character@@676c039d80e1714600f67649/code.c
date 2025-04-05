@@ -17,7 +17,6 @@ char firstNonRepeatedChar(char *str) {
 
 int main() {
     char str[100];  
-    printf("Input: ");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = '\0';  
     char result = firstNonRepeatedChar(str);
