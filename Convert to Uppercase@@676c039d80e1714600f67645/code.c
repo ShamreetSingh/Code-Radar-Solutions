@@ -11,6 +11,6 @@ int main() {
         i++;
     }
 
-    printf("Output: %s", str); 
+    printf("%s", str); 
     return 0;
 }
