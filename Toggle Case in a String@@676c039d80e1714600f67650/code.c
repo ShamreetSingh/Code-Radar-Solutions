@@ -13,6 +13,6 @@ int main() {
     printf("Input: ");
     fgets(str, sizeof(str), stdin);
     toggleCase(str);
-    printf("Output: %s", str);
+    printf("%s", str);
     return 0;
 }
